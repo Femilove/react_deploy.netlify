@@ -2,7 +2,7 @@ import DataContext from './context/DataContext';
 import { useContext } from 'react';
 const Footer = () => {
   const {posts} = useContext(DataContext)
-  const today = new Date();
+
     return (
       <footer>
           <p>
